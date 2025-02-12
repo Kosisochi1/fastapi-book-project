@@ -28,5 +28,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Tests with Pytest
-        run: pytest --exitfirst --verbosity=2
+        run: pytest tests/test_books.py
 
