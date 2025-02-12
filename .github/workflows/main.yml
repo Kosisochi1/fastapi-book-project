@@ -6,7 +6,7 @@ on:
       - main  # CI: Run tests on PR to main branch
   push:
     branches:
-      - main  # CD: Deploy app on merge to main
+      - main  # CD: Deploy app on merge to main1
 
 jobs:
   test:
